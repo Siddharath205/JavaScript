@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    document.write('hello world');
+    document.writeln('hello')
+    document.write('hfijd')
+    console.log('hello world from console')
+
+    /// var const let
+    var a = 'santoh'
+    var b = 10;
+    console.log('Even Number')
+    for (var i = 0; i <= 10; i = i + 2) {  //i++ i=i+1
+        console.log(i);
+    }
+
+    console.log('Odd Number')
+    for (var i = 1; i <= 10; i = i + 2) {  //i++ i=i+1
+        console.log(i);
+    }
+
+    console.log('while loop :')
+    var i = 0;
+    while (i > 10) {
+        console.log(i);
+        i++
+    }
+
+
+    console.log('Do while loop :')
+    var x = 1;
+    do {
+        console.log(x);
+        x++
+    } while (x > 10);
+
+    const arr = [1, 2, 3, 4, 5, {
+        name: 'hello',
+        age: 12
+
+    }, 'hey'] // index o,1,2
+    console.log(arr[1]);
+    console.log(...arr, 23) // ... spread op
+
+    const arr1 = [10, 12]
+    arr1.map((value, index) => (
+        console.log(value, index)
+    ))
+
+
+    const obj = {
+        name: 'hello',
+        age: 12,
+        phone: 999,
+        add: 'dehradun'
+    }
+
+    console.log(obj.name)
+    console.log(obj.age)
+    console.log(obj.phone);
+
+    for (let key in obj) {
+        console.log(key, ":", obj[key]);
+    }
+
+</script>
+
+<body>
+    <p>hello</p>
+    <button>
+        click me
+    </button>
+</body>
+
+</html>

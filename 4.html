@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    // class first{
+    //     constructor(){
+    //         console.log('first class constructor !!')
+
+    //     }
+    //     msg(){
+    //         console.log('msg method !')
+    //     }
+    //      msg1(){
+    //         console.log('msg1 method !')
+    //     }
+    //      msg2(){
+    //         console.log('msg2 method !')
+    //     }
+
+    // }
+
+
+    // const hello = new first();
+    // hello. msg();
+    // const inst = new first();
+    // inst.msg1();
+
+
+
+    class cal {
+
+
+        constructor(username, age, phone) {
+            console.log('first class constructor !! with userName : ', username, "age ", age, "phone ", phone)
+
+        }
+        msg(userName) {
+            console.log('msg method ! with name :', userName)
+        }
+        square(a) {
+            return a * a;
+        }
+        cube(a) {
+            return a * a * a;
+        }
+
+    }
+
+
+
+    const hello1 = new cal('santosh', "22", '965748');
+    console.log(hello1.square(2))
+    console.log(hello1.cube(2))
+
+    // const inst = new first();
+    // inst.msg1();
+
+
+
+
+    // 51. Create a Person class with constructor and greet method.
+    // 52. Create a class Rectangle that returns area and perimeter.
+    // 53. Create a class BankAccount with deposit & withdraw methods.
+    // 54. Create a Car class with start() and stop() methods.
+
+
+
+
+    // 51. Create a Person class with constructor and greet method.
+    // class Person {
+    //     constructor(welcome) {
+    //         console.log("welcome", welcome)
+    //     }
+    //     msg(greet) {
+    //         console.log("greet :", greet)
+    //     }
+    // }
+
+    // const greet1 = new Person('sidd');
+    // greet1.msg("good moring")
+
+
+
+    // 52. Create a class Rectangle that returns area and perimeter.
+
+    class Rectangle {
+        area(a) {
+            var value = a * a;
+            console.log(value)
+        }
+        perimeter(b) {
+            return b * b * b * b
+        }
+    }
+
+    const Rectangle2 = new Rectangle();
+    Rectangle2.area(3);
+    console.log(Rectangle2.perimeter(2));
+
+
+    class thiskeyword {
+        constructor(key) {
+            var key21 = key;
+            console.log('this key : ', key21)
+        }
+
+        output() {
+            // console.log('this key : ',key21)
+        }
+
+    }
+
+    const key1 = new thiskeyword('key');
+    key1.output();
+
+
+    
+
+
+</script>
+
+<body>
+
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //  func method
+        function first(name, age) {
+            console.log('first function :', name, 'with age :', age)
+
+        }
+        first('santosh', 23);
+
+
+        function sum(a, b) {
+            console.log('sum of two of 2 number', a + b)
+
+
+        }
+        sum(1, 3);
+
+
+        function sub(x, y) {
+            console.log('sub of no :', x - y)
+
+
+        }
+        sub(10, 2);
+
+
+        function msg() {
+            return 'hello kisndiocjopd'
+
+        }
+        console.log(msg());
+
+
+        function msg1(a, b) {
+            return a + b
+        }
+        console.log(msg1(1, 2));
+
+
+        // constructor multiple func 
+        class firstclass {
+            // constructor(name){
+            //     console.log('name :', name)
+            // }
+
+
+            hello(name) {
+                console.log('hello function inside the class :', name);
+            }
+            second() {
+                console.log('second on inside the class')
+            }
+        }
+
+        var first = new firstclass();
+        first.hello('santosh')
+        first.second()
+
+
+        var inst = new firstclass();
+        inst.hello('nkj')
+        inst.hello('nkj')
+        inst.hello('nkj')
+
+    </script>
+</body>
+
+</html>

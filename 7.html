@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        class person {
+            constructor(name, age) {
+                this.name = name;
+                this.age = age;
+                console.log(`I am ${this.name} and I am ${this.age} years old.`);
+
+            }
+
+            details() {
+                return `Name: ${this.name}, Age: ${this.age}`;
+            }
+        }
+        var p1 = new person('Alice', 30);
+        console.log(p1.details());
+
+
+
+        var value = 3;
+        // value ==  5 ? console.log('value is 5') : console.log('value is not 5');
+
+        // var value = 2;
+        // if(value != 5) {
+        //     console.log('value is not 5');
+        // } else {
+        //     console.log('value is 5');
+        // }
+
+        if (value == 2) {
+            console.log('value is 2');
+        } else if (value == 3) {
+            console.log('value is 3');
+        } else if (value == 4) {
+            console.log('value is 4  if condition is checked');
+
+        } else {
+            console.log('value is neither 2 nor 3');
+        }
+
+
+        function checkValue(value) {
+            if (value == 3) {
+                return ('value is 3 and type is also number')
+
+            }
+        }
+
+        console.log(checkValue('3'));
+
+        console.log(3 != "3");
+    </script>
+
+</body>
+
+</html>

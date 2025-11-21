@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //  class firstclass {
+        //    constructor(){
+        //         console.log('constructor called !!');
+
+        //    }
+
+
+        //     logMe() {
+        //         console.log('user login successfully');
+
+        //     }
+
+        // }
+
+        // const inst = new firstclass();
+        // inst.logMe();
+        // const inst1 = new firstclass();
+        // inst1.logMe();
+
+
+
+        function greet() {
+            console.log('hello world !!');
+        }
+        greet();
+        const result = function () {
+            // console.log('hello world from greet1 function expression !!');
+            return 'hello world from greet1 function expression !!';
+        }
+        var value = result();
+        console.log(value);
+
+
+        function add(a, b) {
+            if (a > 10) {
+                return 'a should be less than 10';
+            }
+            return (a + b);
+        }
+
+        console.log(add(15, 3));
+        console.log(add(5, 3));
+
+        const reg = (name, age) => {
+
+        }
+
+    </script>
+
+</body>
+
+</html>

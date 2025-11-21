@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        console.log('PRE DEFINED FUNCTION OF ARRAY')
+        var arr1 = [1, 2, 3];
+        console.log(arr1[0]);
+        console.log('length of the array ', arr1.length)
+        var arr2 = [4, 5]
+        console.log('Maximun :',Math.max(...arr2))
+         console.log('Maximun :',Math.min(...arr2))
+        var arr = {
+            name: 'hk'
+        }
+
+        console.log(Array.isArray(arr));
+        console.log(arr1.includes(1))
+        const x = [1, 2, 3, 4];
+        console.log(x.push('santosh'));
+        console.log(x);             
+        console.log('deleted 1, from x', x.pop(1));
+        console.log(x);
+
+
+        console.log(arr1.concat(arr2));
+        console.log('PRE DEFINED FUNCTION OF STRING')
+        var a1='hello'
+        var a2='how'
+        console.log(a1.concat(' ',a2));
+        console.log(a1.toUpperCase());
+        console.log(a1.indexOf('e'));
+        console.log(a1.charAt(1));
+        console.log(a1.lastIndexOf('o'));
+
+        
+        const date = new Date();
+        console.log(date.toLocaleDateString());
+
+    </script>
+
+</body>
+
+</html>
