@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //logical and == doesn't check the 2nd cond if first cond is false
+        var a=3;
+        var b=4;
+        console.log((3<4) && (2<++a)); //true
+        console.log(a);
+
+        //logical or == doesn't check the 2nd cond if first cond is true
+        var x=3;
+        var y=4;
+        console.log((x<y) ||  (2<++x)); //true
+        console.log(x);
+
+        var num = [2,3];
+        var result = num.reduce((acc,value)=>  {
+            acc= acc+value
+
+
+
+            return acc;
+        });
+        console.log('result',result);
+    </script>
+</body>
+</html>
