@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <Script>
+        /*var num = [1,2,3,4,5];
+            var res = num.reduce((acc,value) => acc+value)
+            console.log('result',res);
+            var num = [2,3];
+            var result = num.reduce((acc,value)=> acc*value);
+            console.log('result',result);
+            var num = [1,2,3,4,5];
+            var result = num.filter(num => num%2 == 0)
+            console.log('Even ',result);
+            var result1 = num.filter(num => num%2 !== 0)
+            console.log('Odd ',result1);*/
+
+        document.write('simple Right-Angled triangle parttren <br>');
+        for (i = 0; i <= 5; i++) {
+            for (j = 0; j <= i; j++) {
+                document.write('*');
+            }
+            document.write('<br>');
+        }
+        document.write(' reverse Right-Angled triangle parttren <br>');
+        for (i = 5; i >= 1; i--) {
+            for (j = 1; j <= i; j++) {
+                document.writeln('*');
+            }
+            document.write('<br>');
+        }
+    </Script>
+</body>
+
+</html>
