@@ -1,4 +1,4 @@
-function hello(){
+function hello() {
     console.log("Hello, world!");
 }
 hello();
@@ -15,8 +15,8 @@ console.log(3);
 // async = non-blocking
 
 
-async function fetchData(){
-   // var response = await fetch('https://jsonplaceholder.typicode.com/users');
+async function fetchData() {
+    // var response = await fetch('https://jsonplaceholder.typicode.com/users');
     var post = await fetch('https://jsonplaceholder.typicode.com/posts');
     //var data = await response.json();
     var post = await post.json();
